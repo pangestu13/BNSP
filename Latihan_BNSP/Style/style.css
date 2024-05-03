@@ -1,0 +1,88 @@
+*html{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#20B2AA, white);
+    height:750px;
+    width: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+ header{    
+    background-color: #20B2AA;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+} 
+
+header div p{
+    font-family: sans-serif;
+    color: white ;
+    size: 400px;
+    font-style: inherit;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+    align-items: center;
+    gap: 1rem;
+}
+header ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: aliceblue;
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.wraper{
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(136, 133, 133);
+    /* margin-left: 490px; */
+    
+    
+}
+
+.container .wraper{
+    justify-content: center;
+    font-family: sans-serif;
+    border-radius: 12px;
+}
+
+.wraper button {
+    padding: 15px;
+    display: inline-block;  
+    color: #000000;
+    font-style:inherit;
+    font-size: 15px;
+    display: inline-block;
+    justify-content: center;
+    align-items:center;
+    height:40px;
+    width:100%;
+    border : 2px solid white;
+    padding:8px 35px; 
+    border-radius: 20px;
+}
+
+.wraper button:hover{
+    background-color: #20B2AA;
+    color: white;
+
+}
